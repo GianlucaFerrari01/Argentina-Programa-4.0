@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.png" />
+    <title>GL Developer</title>
+</head>
+
+<body>
+    <nav>
+        <a class="navbar-brand" href="index.html"><img src="assets/icons/logo gf-modified.png" alt="logo"></a>
+
+        <!-- Dark/light theme switcher -->
+        <div class="theme-switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
+                <ion-icon name="moon-outline" class="moon"></ion-icon>
+                <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+                <div class="switcher"></div>
+            </label>
+        </div>
+
+        <ul>
+            <li class="nav-item">
+                <a href="#perfil" class="nav-link" id="nav-link">Perfil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#estudios" class="nav-link" id="nav-link">Estudios</a>
+            </li>
+            <li class="nav-item">
+                <a href="#redes" class="nav-link" id="nav-link">Redes</a>
+            </li>
+        </ul>
+
+        <!-- Bars -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="intro-text">
+            <h1>
+                <span class="mainTitle"> Web developer </span>
+            </h1>
+            <p>
+                Bienvenidos, mi nombre es Gianluca Ferrari y este es mi cv <br />
+                Soy un developer junior que busca seguir desarrollandose día a día
+            </p>
+        </div>
+        <div class="foto">
+            <img src="assets/imagenes/foto-perfil.png" sizes="50%" alt="selfie de mi" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="perfilDatos" id="perfil">
+        <h3>Cualidades</h3>
+        <p>
+            Soy un junior, que hizo varios cursos trabajando con diversas herramientas del rubro
+            Me desenvuelvo bien en equipo y estoy abierto a opiniones constructivas
+        </p>
+
+        <h3>Capacitaciones</h3>
+        <p>
+            Inicie estudiando en "Coderhouse", lugar en el que aprendí las bases de desarrollo web, SASS,JavaScript y un poco de ReactJS.
+        </p>
+    </section>
+
+    <section class="estudios" id="estudios">
+        <div class="estudios-gallery">
+
+            <img src="assets/icons/icons8-html-5-240.png" alt="Icono HTML5" title="" />
+
+            <img src="assets/icons/icons8-css3-240.png" alt="CSS3" title="" />
+
+            <img src="assets/icons/icons8-sass-240.png" alt="SASS" title="" />
+
+            <img src="assets/icons/icons8-javascript-240.png" alt="Javascript" title="" />
+
+            <img src="assets/icons/icons8-github-240.png" alt="Github" title="" />
+            
+           <img src="assets/icons/icons8-git-240.png" alt="GIT" title="" />
+        </div>
+    </section>
+
+    <!-- Diplomas -->
+    <section class="titulos" id="diplomas">
+        <div class="diplos">
+            <div class="imagenesTitulos">
+                <div class="titulo-1">
+                    <img src="assets/imagenes/diploma-webdeveloper.jpg" alt="diploma desarrollo web" />
+                </div>
+                <div class="titulo-2">
+                    <img src="assets/imagenes/diploma-js.png" class="img-fluid" alt="Diploma JS" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social" id="redes">
+        <h3>Mis redes sociales y de contacto</h3>
+        <div class="socIcons">
+            <a Target="_blank" href="https://www.linkedin.com/in/gianluca-ferrari-48a612241/">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a Target="_blank" href="https://github.com/GianlucaFerrari01">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a Target="_blank" href="https://www.instagram.com/lucaferrari243/?hl=en">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a Target="_blank" href="https://www.facebook.com/gianluca.ferrari.9212/">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+           
+        </div>
+    </section>
+
+    <footer>Proyecto Argentina Programa 4.0</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-slide-up-96.png" class="socicon up-arrow"
+            alt="up-arrow" /></i>
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!-- Ion icons CDN -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+</body>
+
+</html>
